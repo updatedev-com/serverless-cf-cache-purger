@@ -27,7 +27,7 @@ jobs:
 
       - run:
           name: Deploy application
-          command: serverless deploy
+          command: serverless deploy --stage prod
 
 workflows:
   version: 2

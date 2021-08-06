@@ -14,6 +14,9 @@ provider:
 functions:
   purgeCloudFlare:
     handler: handler.purgeCloudFlare
+    environment:
+      CF_ZONE_ID: ${env:CF_ZONE_ID}
+      CF_API_TOKEN: ${env:CF_API_TOKEN}
     events:
       - httpApi:
           method: POST
