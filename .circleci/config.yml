@@ -38,4 +38,3 @@ workflows:
             branches:
               only:
                 - main
-                - add-circleci-pipeline
