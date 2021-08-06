@@ -6,6 +6,20 @@ It can help to automate cache purging after deploys and content publishing.
 
 ## Usage
 
+### Requirements
+
+```
+Node JS >=14
+Yarn
+Serverless >=3
+```
+
+Preparing local environment:
+
+```bash
+$ npm install -g serverless yarn
+```
+
 ### Deployment
 
 Before deployment, create a `.env` file like the example bellow replacing `<ZONE_ID>` by the [`zone id`](https://community.cloudflare.com/t/how-to-find-cloudflare-zone-id-to-configure-it-with-wp-rocket/83131) you want purge and `<API_TOKEN>` by an [`API TOKEN`](https://developers.cloudflare.com/api/tokens/create#:~:text=To%20get%20started%20creating%20an,home%20screen%20select%20Create%20Token%20.) with purge permission.
@@ -18,7 +32,7 @@ CF_API_TOKEN=<API_TOKEN>
 In order to deploy, you need to run the following command:
 
 ```
-$ npm install
+$ yarn
 $ serverless deploy
 ```
 

@@ -1,0 +1,11 @@
+{
+  "name": "serverless-cf-cache-purger",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.0.0"
+  }
+}
