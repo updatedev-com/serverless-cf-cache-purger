@@ -1,5 +1,5 @@
 {
-  "name": "aws-node-express-api-project",
+  "name": "serverless-cf-cache-purger",
   "version": "1.0.0",
   "description": "",
   "dependencies": {
